@@ -1,0 +1,363 @@
+body {
+ background-color: #EDEDEF;
+}
+
+h1 {
+ margin: 0;
+ padding: 0;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+header {
+    margin-top: 130px;
+ background-image: url("./media/techniquesheader.jpg");
+ height: 70vh;
+ position: relative;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+
+.wip-holder {
+ width:100%;
+ padding-top:55%;
+ padding-left:15%;
+ padding-right:15%;
+}
+
+.wip-title {
+ color: white;
+ margin: 0;
+ padding: 0;
+ background: url('./media/headermenu.gif')no-repeat;
+ background-size: cover;
+ -webkit-text-fill-color: transparent;
+ -webkit-background-clip: text;
+ font-size: 16vw;
+ text-align: center;
+ font-family: 'Lato', sans-serif;
+ font-weight: 900;
+}
+
+.wip-info {
+ color: black;
+ font-family: 'Lato', sans-serif;
+ text-align: center;
+ letter-spacing: 3px;
+ font-size: 3vw;
+ line-height:20px;
+}
+
+img {
+ margin-left: auto;
+ margin-right:auto;
+ display:block;
+ padding-top:10px;
+ padding-bottom: 30px;
+}
+
+.darken {
+    height:100%;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.2);
+}
+
+.title {
+ position: absolute;
+ left: 35%;
+ top: 40%;
+ min-width: 30%;
+ background: rgba(0, 0, 0, 0.6);
+ text-align: center;
+ color: white;
+ font-family: 'Lato', sans-serif;
+ font-size: 4vh;
+ font-weight:800;
+ letter-spacing: 8px;
+ padding: 3vh; 
+}
+
+
+.stance {
+    color:#777;
+    background-color: white;
+    padding:50px 80px;
+    font-family: 'Lato', sans-serif;
+}
+
+.stance h3 {
+    font-weight: 800;
+    letter-spacing:5px;
+    text-align: center;
+    color:#000;
+}
+
+.stance p ol{
+    text-align: justify;
+    font-size: 2vh;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+}
+
+.stance b{
+    text-align: justify;
+    letter-spacing: 0.1px;
+    color:black;
+}
+
+.parallax-background1 {
+    background-image:url("./media/roundhousekick.jpg");
+    height:500px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote {
+     position: absolute;
+     left: 20%;
+     top: 40%;
+     width: 60%;
+     background: rgba(0, 0, 0, 0.6);
+     text-align: center;
+     color: white;
+     font-family: 'Lato', sans-serif;
+     font-size: 3vh;
+     font-weight:800;
+     letter-spacing: 3px;
+     padding: 3vh; 
+}
+
+.parallax-background2 {
+    background-image:url("./media/knee.jpg");
+    height:500px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-background3 {
+    background-image:url("./media/pushup.jpg");
+    height:500px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-background4 {
+    background-image:url("./media/elbow.jpg");
+    height:500px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.attack {
+    color:#777;
+    background-color: white;
+    padding:50px 80px;
+    font-family: 'Lato', sans-serif;
+}
+
+.attack h3 {
+    font-weight: 800;
+    letter-spacing:5px;
+    text-align: center;
+    color:#000;
+}
+
+.attack h4 {
+    letter-spacing:4px;
+    text-align: center;
+}
+
+.attack p {
+    text-align: justify;
+    font-weight: 100;
+}
+
+.attack b {
+    color:#000;
+    font-weight:bold;
+}
+
+.attack2 {
+    color:#777;
+    background-color: white;
+    padding:50px 80px;
+    font-family: 'Lato', sans-serif;
+}
+
+.attack2 h3 {
+    font-weight: 800;
+    letter-spacing:5px;
+    text-align: center;
+    color:#000;
+}
+
+.attack2 h4 {
+    letter-spacing:4px;
+    text-align: center;
+}
+
+.attack2 p {
+    text-align: justify;
+    font-weight: 100;
+}
+
+.attack2 b {
+    color:#000;
+    font-weight:bold;
+}
+
+.trio {
+    margin-left: auto;
+    margin-right:auto;
+    width:100%;
+}
+
+.kicky {
+    padding:0px 10px;
+}
+
+.kicky img {
+    width:100%;
+}
+
+.kick1 {
+    padding-left:15px;
+}
+
+.kick2 {
+    padding-right:15px;
+}
+
+.video-wrap {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.video-hold {
+    margin:0px 90px;
+}
+
+.video-wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.credits {
+    text-align: right !important;
+    font-size:1.8vh;
+    color:#777;
+    font-family: 'Lato', sans-serif;
+}
+
+.panel-group a:hover, 
+.panel-group a:active {
+  color: #c0c0c0;
+  text-decoration: none;
+  transition: color 0.1s ease-in;
+}
+
+.panel-group h4 {
+    letter-spacing: 1.5px;
+}
+
+.clinch {
+    color:#777;
+    background-color: white;
+    padding:50px 80px;
+    font-family: 'Lato', sans-serif;
+}
+
+.clinch h3 {
+    font-weight: 800;
+    letter-spacing:5px;
+    text-align: center;
+    color:#000;
+}
+
+.clinch h4 {
+    letter-spacing:4px;
+    text-align: center;
+}
+
+.clinch p{
+    text-align: justify;
+    font-weight: 100;
+}
+
+.clinch b {
+    color:#000;
+    font-weight:bold;
+}
+
+.video-wrap2 {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.video-hold2 {
+    margin:0px 10px;
+}
+
+.video-wrap2 iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+}
+
+.footer-image {
+    background-image:url("https://media.giphy.com/media/6wpHEQNjkd74Q/giphy.gif");
+    height:300px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 90px;
+}
+
+footer {
+    background-color:black;
+    color:white;
+    padding:2% 0;
+    width:100%;
+    clear:both;
+    display:block;
+}
+
+.footer-content {
+    margin:0 auto;
+    font-style:normal;
+    line-height:1.4;
+    font-family: 'Lato', sans-serif;
+    color:white;
+    text-align: center;
+    font-size: 1.5vh;
+    padding:15px 30px 15px 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
